@@ -53,8 +53,8 @@ void handleRoot() {
   dtostrf(h, 5, 2, buffer_h);
   dtostrf(rzero, 5, 2, buffer_rzero);
   dtostrf(ppm, 5, 2, buffer_ppm);
-  dtostrf(rzero, 5, 2, buffer_rzeroc);
-  dtostrf(ppm, 5, 2, buffer_ppmc);
+  dtostrf(rzeroc, 5, 2, buffer_rzeroc);
+  dtostrf(ppmc, 5, 2, buffer_ppmc);
 
   // Serial.print("ppm: ");
   // Serial.println(ppm);
